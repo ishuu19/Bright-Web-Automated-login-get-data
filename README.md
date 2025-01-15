@@ -7,9 +7,9 @@ This repository contains Python scripts designed for web scraping tasks, specifi
 The main purpose of this repository is to automate the process of selecting time period options (such as 30 minutes, hour, day, week, and month) on a web page using Python and Selenium. The time period buttons are part of an interactive UI that can either display a set of 5 or 6 options. Based on the number of buttons, the script selects the appropriate "30min" button.
 
 ### Key Features:
-- **Flexible Button Handling**: The script handles cases where there are either 5 or 6 buttons in the time period selector.
-  - **For 6 buttons**: The second button (30min) is selected.
-  - **For 5 buttons**: The first button (30min) is selected.
+- **Flexible Button Handling**: The script handles cases where there are either 8 or 9 buttons in the time period selector.
+  - **For 9 buttons**: The second button (30min) is selected.
+  - **For 8 buttons**: The first button (30min) is selected.
   
 - **JavaScript Execution**: The script executes JavaScript to interact with the page and click the relevant button based on the count of buttons.
 
