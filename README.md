@@ -23,7 +23,7 @@ The main purpose of this repository is to automate the process of selecting time
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/web-scraping-time-period.git
+    git clone https://github.com/ishuu19/Bright-Web-Automated-login-get-data.git
     ```
 
 2. Install the necessary dependencies:
@@ -33,13 +33,6 @@ The main purpose of this repository is to automate the process of selecting time
 
 3. Download and set up the appropriate WebDriver for your browser (e.g., ChromeDriver for Chrome).
 
-## Usage
-
-1. Ensure the necessary driver (e.g., ChromeDriver) is installed and added to your PATH.
-2. Run the script to start the web scraping process:
-    ```bash
-    python scrape_time_period.py
-    ```
 
 This will execute the scraping and interact with the web page to select the "30min" option based on the number of buttons present.
 
